@@ -27,7 +27,7 @@ jobs:
     - name: view position
       run: cd /home/runner/work/RepoDevcoApi/RepoDevcoApi/DevcoApi/
     - name: view position
-      run: ls
+      run: ls -a
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     - name: Build with Gradle
