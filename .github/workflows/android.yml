@@ -23,8 +23,8 @@ jobs:
     - name: Change directory execute permission for gradlew
       run: cd DevcoApi
     - name: view directory execute permission for gradlew
+      run: ls
+    - name: view directory execute permission for gradlew
       run: pwd
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
