@@ -19,8 +19,10 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: gradle
-    - name: Make gradlew executable
-      run: gradle wrapper
+        
+    - name: view position
+      run: ls
+           pwd
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     - name: Build with Gradle
