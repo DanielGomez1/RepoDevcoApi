@@ -1,0 +1,2 @@
+# DevcoApi
+se creaa una aplicación básica usando springBoot, que tenga una REST API para saludar, se espera que le entre un nombre y responda saludando al nombre enviado, la aplicación debe ser creada usando gradle, deberás incluir pruebas unitarias para la aplicación y deberás incluir un pipeline como código para realizar Integración Continua y el despliegue de la aplicación en AWS, debes incluir los pasos mínimos que usarías para garantizar que la aplicación salga a producción con la mayor calidad
