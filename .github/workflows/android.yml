@@ -22,7 +22,8 @@ jobs:
         
     - name: view position
       run: ls
-           pwd
+    - name: view position
+      run: pwd
     - name: Make gradlew executable
       run: chmod +x ./gradlew
     - name: Build with Gradle
