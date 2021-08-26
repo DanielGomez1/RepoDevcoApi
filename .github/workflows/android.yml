@@ -20,9 +20,5 @@ jobs:
         distribution: 'adopt'
         cache: gradle
         
-    - name: Change directory execute permission for gradlew
-      run: cd DevcoApi
-    - name: Change directory execute permission for gradlew
-      run: ls
     - name: Build with Gradle
       run: ./gradlew build
