@@ -1,4 +1,4 @@
-name: SB CI
+name: SB CI 
 
 on:
   push:
